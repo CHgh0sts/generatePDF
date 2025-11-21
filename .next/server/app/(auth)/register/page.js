@@ -2,7 +2,7 @@ var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(auth)/r
 R.c("server/chunks/ssr/[root-of-the-server]__a4c5c4a3._.js")
 R.c("server/chunks/ssr/_d25179f9._.js")
 R.c("server/chunks/ssr/_a8e8d930._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c144b9dc._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__84e61e9a._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_compiled_@opentelemetry_api_index_d03d2993.js")
 R.c("server/chunks/ssr/node_modules_next_dist_22f8d72f._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__364fca3c._.js")
@@ -14,5 +14,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_9774470f._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_45780354.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_15817684.js")
 R.c("server/chunks/ssr/_next-internal_server_app_(auth)_register_page_actions_0f1678cc.js")
-R.m(70505)
-module.exports=R.m(70505).exports
+R.m(870505)
+module.exports=R.m(870505).exports

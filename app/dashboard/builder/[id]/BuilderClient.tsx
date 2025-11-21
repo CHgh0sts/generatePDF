@@ -1607,19 +1607,19 @@ export default function BuilderClient({ template }: { template: any }) {
               <div className="px-6 py-4 border-t border-gray-200 flex items-center justify-between bg-gray-50">
                 <button
                   onClick={() => {
-                    const newColumns = [
-                      ...tableColumns,
-                      { 
-                        id: uuidv4(), 
-                        label: `Colonne ${tableColumns.length + 1}`,
-                        value: '',
-                        align: 'left',
-                        fontWeight: 'normal',
-                        fontStyle: 'normal',
-                        textDecoration: 'none'
-                      }
-                    ];
-                    updateElement(editingTableId, { columns: newColumns });
+                  const newColumns: TableColumn[] = [
+                    ...tableColumns,
+                    { 
+                      id: uuidv4(), 
+                      label: `Colonne ${tableColumns.length + 1}`,
+                      value: '',
+                      align: 'left' as const,
+                      fontWeight: 'normal' as const,
+                      fontStyle: 'normal' as const,
+                      textDecoration: 'none' as const
+                    }
+                  ];
+                  updateElement(editingTableId, { columns: newColumns });
                   }}
                   className="px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors"
                 >

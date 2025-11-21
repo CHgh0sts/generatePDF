@@ -1,24 +1,9 @@
 {
   "node": {
-    "00e90e1d23a2e703fac2d962970a9dfca0f7dd089d": {
-      "workers": {
-        "app/dashboard/page": {
-          "moduleId": 32591,
-          "async": false,
-          "exportedName": "createTemplate",
-          "filename": "app/dashboard/actions.ts"
-        }
-      },
-      "layer": {
-        "app/dashboard/page": "rsc"
-      },
-      "exportedName": "createTemplate",
-      "filename": "app/dashboard/actions.ts"
-    },
     "40fa4a19e4936703c249cb226af81df0e42d302982": {
       "workers": {
         "app/dashboard/page": {
-          "moduleId": 32591,
+          "moduleId": 632591,
           "async": false,
           "exportedName": "deleteTemplate",
           "filename": "app/dashboard/actions.ts"
@@ -28,6 +13,21 @@
         "app/dashboard/page": "action-browser"
       },
       "exportedName": "deleteTemplate",
+      "filename": "app/dashboard/actions.ts"
+    },
+    "403cbdb0b121ac7095e8c5f6b9cc4c97eaeaab148e": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": 632591,
+          "async": false,
+          "exportedName": "createTemplateFromBase",
+          "filename": "app/dashboard/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser"
+      },
+      "exportedName": "createTemplateFromBase",
       "filename": "app/dashboard/actions.ts"
     }
   },

@@ -124,8 +124,8 @@ export default function CreateTemplateCard() {
                     >
                       <div className="flex items-start gap-4">
                         <div className={`w-12 h-12 ${colors.bg} rounded-lg flex items-center justify-center shrink-0 ${
-                          isSelected ? 'ring-2 ring-offset-2' : ''
-                        }`} style={{ ringColor: isSelected ? colors.text : undefined }}>
+                          isSelected ? `ring-2 ring-offset-2 ${colors.border.replace('border-', 'ring-')}` : ''
+                        }`}>
                           <Icon className={`w-6 h-6 ${colors.text}`} />
                         </div>
                         <div className="flex-1 min-w-0">

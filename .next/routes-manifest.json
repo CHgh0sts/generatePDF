@@ -21,6 +21,22 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/api/generate/[slug]",
+      "regex": "^/api/generate/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/api/generate/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/routes/[id]",
+      "regex": "^/api/routes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/routes/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/api/templates/[id]",
       "regex": "^/api/templates/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -43,6 +59,14 @@
         "nxtPid": "nxtPid"
       },
       "namedRegex": "^/dashboard/generate/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/generateroute/[id]",
+      "regex": "^/dashboard/generateroute/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/generateroute/(?<nxtPid>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -89,10 +113,34 @@
       "namedRegex": "^/api/proxy\\-image(?:/)?$"
     },
     {
+      "page": "/api/routes",
+      "regex": "^/api/routes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/routes(?:/)?$"
+    },
+    {
+      "page": "/api/templates",
+      "regex": "^/api/templates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/templates(?:/)?$"
+    },
+    {
       "page": "/dashboard",
       "regex": "^/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/generateroute",
+      "regex": "^/dashboard/generateroute(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/generateroute(?:/)?$"
+    },
+    {
+      "page": "/dashboard/generateroute/new",
+      "regex": "^/dashboard/generateroute/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/generateroute/new(?:/)?$"
     },
     {
       "page": "/favicon.ico",
