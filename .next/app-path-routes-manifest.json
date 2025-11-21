@@ -1,0 +1,16 @@
+{
+  "/(auth)/login/page": "/login",
+  "/(auth)/register/page": "/register",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/auth/logout/route": "/api/auth/logout",
+  "/api/auth/register/route": "/api/auth/register",
+  "/api/proxy-image/route": "/api/proxy-image",
+  "/api/templates/[id]/route": "/api/templates/[id]",
+  "/dashboard/builder/[id]/page": "/dashboard/builder/[id]",
+  "/dashboard/generate/[id]/page": "/dashboard/generate/[id]",
+  "/dashboard/page": "/dashboard",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

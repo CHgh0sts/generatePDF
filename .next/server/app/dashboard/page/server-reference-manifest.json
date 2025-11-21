@@ -1,0 +1,35 @@
+{
+  "node": {
+    "00e90e1d23a2e703fac2d962970a9dfca0f7dd089d": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": 32591,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "app/dashboard/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "exportedName": "createTemplate",
+      "filename": "app/dashboard/actions.ts"
+    },
+    "40fa4a19e4936703c249cb226af81df0e42d302982": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": 32591,
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "app/dashboard/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser"
+      },
+      "exportedName": "deleteTemplate",
+      "filename": "app/dashboard/actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,165 @@
+[00:00:00.801] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:00.899] Server  LOG      ✓ Ready in 682ms
+[00:00:04.296] Server  LOG      ○ Compiling /dashboard ...
+[00:00:05.883] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/dashboard" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="dashboard/...">
+            <SegmentTrieNode>
+            <DashboardPage>
+              <div className="space-y-8">
+                <div>
+                <div className="grid grid-...">
+                  <CreateTemplateCard>
+                  <TemplateCard template={{id:"229d98...", ...}}>
+                    <div className="group bg-w...">
+                      <div>
+                      <div className="p-5 flex f...">
+                        <div className="mb-5">
+                          <h3>
+                          <div className="flex items...">
+                            <Calendar>
+                            <span>
++                             21/11/2025
+-                             11/21/2025
+                        ...
+                  ...
+          ...
+        ...
+
+[00:00:08.404] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/dashboard" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="dashboard/...">
+            <SegmentTrieNode>
+            <DashboardPage>
+              <div className="space-y-8">
+                <div>
+                <div className="grid grid-...">
+                  <CreateTemplateCard>
+                  <TemplateCard template={{id:"229d98...", ...}}>
+                    <div className="group bg-w...">
+                      <div>
+                      <div className="p-5 flex f...">
+                        <div className="mb-5">
+                          <h3>
+                          <div className="flex items...">
+                            <Calendar>
+                            <span>
++                             21/11/2025
+-                             11/21/2025
+                        ...
+                  ...
+          ...
+        ...
+
+[00:00:10.326] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/dashboard" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="dashboard/...">
+            <SegmentTrieNode>
+            <DashboardPage>
+              <div className="space-y-8">
+                <div>
+                <div className="grid grid-...">
+                  <CreateTemplateCard>
+                  <TemplateCard template={{id:"229d98...", ...}}>
+                    <div className="group bg-w...">
+                      <div>
+                      <div className="p-5 flex f...">
+                        <div className="mb-5">
+                          <h3>
+                          <div className="flex items...">
+                            <Calendar>
+                            <span>
++                             21/11/2025
+-                             11/21/2025
+                        ...
+                  ...
+          ...
+        ...
+
+[00:00:13.960] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:15.364] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/dashboard" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="dashboard/...">
+            <SegmentTrieNode>
+            <DashboardPage>
+              <div className="space-y-8">
+                <div>
+                <div className="grid grid-...">
+                  <CreateTemplateCard>
+                  <TemplateCard template={{id:"229d98...", ...}}>
+                    <div className="group bg-w...">
+                      <div>
+                      <div className="p-5 flex f...">
+                        <div className="mb-5">
+                          <h3>
+                          <div className="flex items...">
+                            <Calendar>
+                            <span>
++                             21/11/2025
+-                             11/21/2025
+                        ...
+                  ...
+          ...
+        ...
+
+[00:00:49.747] Server  LOG      ✓ Compiled in 73ms
+[00:00:58.270] Server  LOG      ✓ Compiled in 58ms
+[00:01:04.790] Server  LOG      ✓ Compiled in 21ms
+[00:01:22.227] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:22.001] Server  LOG      ✓ Compiled in 178ms

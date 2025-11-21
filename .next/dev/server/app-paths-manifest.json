@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/routes/route": "app/api/routes/route.js",
+  "/api/templates/[id]/route": "app/api/templates/[id]/route.js",
+  "/dashboard/builder/[id]/page": "app/dashboard/builder/[id]/page.js",
+  "/dashboard/generateroute/page": "app/dashboard/generateroute/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js"
+}

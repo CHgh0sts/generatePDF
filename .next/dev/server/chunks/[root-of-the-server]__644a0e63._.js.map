@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///Users/chghosts/Developpement/test%20gemini%203/app/api/auth/logout/route.ts"],"sourcesContent":["import { cookies } from 'next/headers';\nimport { NextResponse } from 'next/server';\nimport { redirect } from 'next/navigation';\n\nexport async function POST() {\n  const cookieStore = await cookies();\n  cookieStore.delete('session');\n  redirect('/');\n}\n\n"],"names":[],"mappings":";;;;AAAA;AAEA;AAAA;;;AAEO,eAAe;IACpB,MAAM,cAAc,MAAM,IAAA,4IAAO;IACjC,YAAY,MAAM,CAAC;IACnB,IAAA,mMAAQ,EAAC;AACX"}}]
+}

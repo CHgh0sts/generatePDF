@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        String      @id @default(uuid())
+  email     String      @unique
+  password  String
+  name      String?
+  createdAt DateTime    @default(now())
+  templates Template[]
+  invoices  Invoice[]
+  apiRoutes ApiRoute[]
+}
+
+model Template {
+  id           String     @id @default(uuid())
+  name         String
+  content      String     // Stocke le JSON de la structure (positions, types, styles)
+  templateType String?    // Type de template de base: "blank", "invoice", "quote", "order", "delivery"
+  customIcon   String?    // Nom de l'icône Lucide React personnalisée
+  userId       String
+  user         User       @relation(fields: [userId], references: [id])
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  invoices     Invoice[]
+  apiRoutes    ApiRoute[]
+}
+
+model Invoice {
+  id         String   @id @default(uuid())
+  number     String
+  date       DateTime @default(now())
+  clientName String
+  data       String   // JSON avec les données réelles (items, prix, etc.)
+  templateId String
+  template   Template @relation(fields: [templateId], references: [id])
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  createdAt  DateTime @default(now())
+}
+
+model ApiRoute {
+  id              String   @id @default(uuid())
+  name            String   // Nom de la route pour identification
+  slug            String   @unique // URL slug unique (ex: "facture-client-a")
+  templateId      String
+  template        Template @relation(fields: [templateId], references: [id])
+  userId          String
+  user            User     @relation(fields: [userId], references: [id])
+  variableMapping String   // JSON: mapping des variables (ex: {"societe.nom": "{{societeName}}"})
+  apiKey          String?  // Clé API optionnelle pour sécuriser
+  responseType    String   @default("download") // "download", "url", "base64"
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

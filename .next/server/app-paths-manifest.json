@@ -1,0 +1,16 @@
+{
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/logout/route": "app/api/auth/logout/route.js",
+  "/api/auth/register/route": "app/api/auth/register/route.js",
+  "/api/proxy-image/route": "app/api/proxy-image/route.js",
+  "/api/templates/[id]/route": "app/api/templates/[id]/route.js",
+  "/dashboard/builder/[id]/page": "app/dashboard/builder/[id]/page.js",
+  "/dashboard/generate/[id]/page": "app/dashboard/generate/[id]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}
