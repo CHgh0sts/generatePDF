@@ -164,3 +164,4 @@ https://react.dev/link/hydration-mismatch
 [00:01:22.227] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
 [00:05:22.001] Server  LOG      ✓ Compiled in 178ms
 [00:19:31.667] Server  LOG      ✓ Compiled in 127ms
+[00:31:14.853] Server  LOG      ✓ Compiled in 90ms
